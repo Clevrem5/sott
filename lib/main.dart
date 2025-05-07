@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
       child: MultiProvider(
         providers: provider,
         child: MaterialApp.router(
+          debugShowCheckedModeBanner: false,
           theme: ThemeData(
             fontFamily: "Gilroy",
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
