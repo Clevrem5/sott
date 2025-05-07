@@ -39,7 +39,7 @@ class HomeView extends StatelessWidget {
                       sliver: SliverGrid(
                         delegate: SliverChildBuilderDelegate(
                           (context, index) => Column(
-                            children: [Image.network(state.)],
+                            children: [Image.network(state.home[index].image)],
                           ),
                         ),
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
